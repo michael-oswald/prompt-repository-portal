@@ -1,10 +1,10 @@
 interface OpenMojiProps {
-  emoji: string;
+  emoji?: string;
   size?: number;
   className?: string;
 }
 
-export default function OpenMoji({ emoji, size = 32, className = '' }: OpenMojiProps) {
+export default function OpenMoji({ emoji = '👤', size = 32, className = '' }: OpenMojiProps) {
   // OpenMoji uses hexadecimal codes for emoji filenames
   // Convert emoji to its Unicode codepoint(s)
   const getEmojiCode = (emoji: string) => {

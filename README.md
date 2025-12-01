@@ -4,6 +4,29 @@ An open-source prompt repository inspired by [Instacart's Ava](https://tech.inst
 
 ![Prompt Repository](https://img.shields.io/badge/React-19.2.0-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue) ![Vite](https://img.shields.io/badge/Vite-7.2.4-646CFF) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.17-38B2AC)
 
+## 🎯 About This Template
+
+**This is a template/demo site showcasing the concept of a prompt repository.** It's a fully functional static site that you can deploy immediately to demonstrate the idea to your team or organization.
+
+**Current Status:**
+- ✅ Fully functional UI with all features working
+- ✅ Ready to deploy to GitHub Pages, Vercel, or Netlify
+- ✅ Uses mock data stored in the codebase (no database yet)
+- ⚠️ No backend or database integration (yet!)
+
+**Next Steps for Production:**
+This template provides the foundation, and you can enhance it by:
+- Adding database integration (Supabase, PostgreSQL, Firebase, etc.)
+- Implementing user authentication
+- Creating an API layer for CRUD operations
+- Adding real-time features and analytics
+- See the "Future Enhancements" section below for more ideas
+
+**Use this as:**
+- A starting point for your own prompt repository
+- A demo to showcase the concept to stakeholders
+- A template to fork and customize for your team's needs
+
 ## ✨ Features
 
 - 🔍 **Browse & Search** - Find prompts by category, tags, or keywords
